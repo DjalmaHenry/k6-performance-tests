@@ -17,8 +17,8 @@ export const options = {
   },
   ext: {
     loadimpact: {
-      projectID: 3640958,
-      name: "Teste K6"
+      projectID: 3644171,
+      name: 'login users'
     }
   }
 };
