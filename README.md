@@ -87,7 +87,7 @@ git clone https://github.com/DjalmaHenry/K5-Performance-Tests.git
 
 Para executar um teste local, você pode usar um dos scripts de exemplo para executar, use o comando:
 ```
-k6 run script.js
+k6 run loginUsers.js
 ```
 
 ### ☁️ Rodando um teste no Grafana Cloud
@@ -99,5 +99,5 @@ k6 login cloud --token YourToken
 
 Em seguida, você pode executar os testes no Grafana Cloud usando o comando:
 ```
-k6 cloud script.js
+k6 cloud loginUsers.js
 ```
