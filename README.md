@@ -96,6 +96,7 @@ Primeiro, é necessário fazer login no Grafana Cloud usando o comando:
 ```
 k6 login cloud --token YourToken
 ```
+obs.: Esse token será gerado para você quando criar um novo projeto no Grafana Cloud com K6.
 
 Em seguida, você pode executar os testes no Grafana Cloud usando o comando:
 ```
